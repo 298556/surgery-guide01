@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手术后注意事项</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(180deg, #fef9e7 0%, #fef5e7 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(230, 126, 34, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            padding: 50px 30px;
+            text-align: center;
+            color: white;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .header p {
+            font-size: 16px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #d35400;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e67e22;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+        }
+        .section-emoji {
+            font-size: 32px;
+        }
+        .subsection {
+            margin: 25px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #e67e22;
+            border-radius: 8px;
+        }
+        .subsection-title {
+            font-size: 18px;
+            color: #d35400;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .item-list {
+            list-style: none;
+            padding: 0;
+        }
+        .item-list li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #34495e;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .item-list li:last-child {
+            border-bottom: none;
+        }
+        .item-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .warning-box {
+            background: linear-gradient(135deg, #fadbd8 0%, #f5b7b1 100%);
+            border-left: 5px solid #e74c3c;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 10px;
+        }
+        .warning-box strong {
+            color: #c0392b;
+            font-size: 16px;
+        }
+        .warning-box p {
+            color: #2c3e50;
+            margin-top: 8px;
+            line-height: 1.8;
+        }
+        .footer {
+            background: #ecf0f1;
+            padding: 30px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>手术后注意事项</h1>
+            <p>详细的术后恢复指南</p>
+        </div>
+
+        <div class="content">
+            <!-- 术后返回病房 -->
+            <div class="section">
+                <div class="section-title">
+                    <span class="section-emoji">🏥</span>
+                    术后返回病房
+                </div>
+                
+                <div class="subsection">
+                    <div class="subsection-title">麻醉恢复期（术后0-6小时）</div>
+                    <ul class="item-list">
+                        <li>保持安静，配合医护人员的观察和检查</li>
+                        <li>不要急着起床，等医护人员指示</li>
+                        <li>如有疼痛、恶心、呕吐等症状，立即告知医护人员</li>
+                        <li>按医嘱进行深呼吸和咳嗽，帮助肺部恢复</li>
+                        <li>监测生命体征（血压、心率、体温等）</li>
+                        <li>如有导管或引流管，不要自行拔除</li>
+                        <li>可能会感到口干，但暂时不能进食或饮水</li>
+                        <li>如有任何不适，立即按铃呼叫医护人员</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 术后第一天 -->
+            <div class="section">
+                <div class="section-title">
+                    <span class="section-emoji">🛏️</span>
+                    术后第一天
+                </div>
+                
+                <div class="subsection">
+                    <div class="subsection-title">卧床休息</div>
+                    <ul class="item-list">
+                        <li>术后24小时内卧床休息，让身体充分恢复</li>
+                        <li>保持平卧或半卧位（根据手术类型）</li>
+                        <li>可以在床上翻身，改变姿势</li>
+                        <li>不要自行下床活动</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <div class="subsection-title">伤口护理</div>
+                    <ul class="item-list">
+                        <li>保持伤口干燥，不要沾水</li>
+                        <li>不要自己揭开敷料或查看伤口</li>
+                        <li>如果敷料湿润或脱落，立即告知医护人员</li>
+                        <li>观察伤口是否有异常渗液或出血</li>
+                        <li>不要用手触摸伤口</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <div class="subsection-title">饮食</div>
+                    <ul class="item-list">
+                        <li>术后6小时可以喝点清水或清汤（小口小口）</li>
+                        <li>如果没有恶心，可以逐步进食清粥、清汤面等</li>
+                        <li>避免油腻、辛辣、难消化的食物</li>
+                        <li>如有恶心或呕吐，停止进食，告知医护人员</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <div class="subsection-title">疼痛管理</div>
+                    <ul class="item-list">
+                        <li>术后疼痛是正常的，不要忍耐</li>
+                        <li>按医嘱服用止痛药，不要等到疼痛加重再吃</li>
+                        <li>如果止痛药效果不好，立即告知医生</li>
+                        <li>可以用冰袋冷敷（术后24小时内）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 术后2-7天 -->
+            <div class="section">
+                <div class="section-title">
+                    <span class="section-emoji">📅</span>
+                    术后2-7天
+                </div>
+                
+                <div class="subsection">
+                    <div class="subsection-title">活动</div>
+                    <ul class="item-list">
+                        <li>24小时后可以在床上翻身，逐步增加活动</li>
+                        <li>48小时后可以在家人帮助下下床活动</li>
+                        <li>开始时只在房间内活动，逐步扩大活动范围</li>
+                        <li>不要进行剧烈运动或重体力劳动</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <div class="subsection-title">伤口护理</div>
+                    <ul class="item-list">
+                        <li>按医生要求定期换药</li>
+                        <li>洗澡时用防水贴膜保护伤口，别让水进去</li>
+                        <li>不要自己揭开敷料或拆线</li>
+                        <li>观察伤口是否有红肿、渗液、异味等异常情况</li>
+                        <li>通常在术后7-14天拆线</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <div class="subsection-title">饮食</div>
+                    <ul class="item-list">
+                        <li>慢慢从流质食物过渡到半流质和普通饮食</li>
+                        <li>吃清淡营养的食物，帮助伤口愈合</li>
+                        <li>增加蛋白质摄入（鸡蛋、鱼、瘦肉等）</li>
+                        <li>多喝温水，保持大便通畅</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 出院前准备 -->
+            <div class="section">
+                <div class="section-title">
+                    <span class="section-emoji">📋</span>
+                    出院前准备
+                </div>
+                
+                <div class="subsection">
+                    <div class="subsection-title">出院前注意事项</div>
+                    <ul class="item-list">
+                        <li>了解出院后的用药方法和注意事项</li>
+                        <li>了解伤口护理方法和复查时间</li>
+                        <li>了解饮食和活动的注意事项</li>
+                        <li>了解异常情况的处理方法</li>
+                        <li>带齐所有出院文件和药物</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 立即就医 -->
+            <div class="warning-box">
+                <strong>⚠️ 立即就医的情况</strong>
+                <p>如果出现以下情况，请立即联系医生或来医院：发热（体温超过38.5°C）、伤口红肿、疼痛加重、渗液增多或有异味、伤口裂开或有脓液、剧烈疼痛无法缓解、严重恶心或呕吐、大量出血、呼吸困难或胸痛、腿部肿胀或疼痛。</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>我们致力于为您提供最专业、最温暖的医疗服务</p>
+        </div>
+    </div>
+</body>
+</html>
